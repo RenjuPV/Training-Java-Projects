@@ -12616,3 +12616,26 @@ org.eclipse.core.runtime.CoreException: Launch configuration Application (17) re
 2025-04-23 17:42:40,002 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /178-SpringBoot/src/test/java
 2025-04-23 17:42:40,004 [Worker-4: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /178-SpringBoot/src/test/resources
 2025-04-23 17:42:41,903 [Worker-4: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 4.00 sec, update config takes 1.00 sec 
+2025-04-24 05:54:17,317 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:178-SpringBoot-JenkinTest:0.0.1-SNAPSHOT @ C:\Java Projects_Renju Prasannan\178-SpringBoot-JenkinTest\pom.xml.
+2025-04-24 05:54:20,071 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /178-SpringBoot-JenkinTest/src/main/java
+2025-04-24 05:54:20,073 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /178-SpringBoot-JenkinTest/src/main/resources
+2025-04-24 05:54:20,083 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /178-SpringBoot-JenkinTest/src/main/resources
+2025-04-24 05:54:20,092 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /178-SpringBoot-JenkinTest/src/test/java
+2025-04-24 05:54:20,094 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /178-SpringBoot-JenkinTest/src/test/resources
+2025-04-24 05:54:21,874 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2025-04-24 05:54:21,914 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-24 05:54:23,251 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:178-SpringBoot-JenkinTest:0.0.1-SNAPSHOT @ C:\Java Projects_Renju Prasannan\178-SpringBoot-JenkinTest\pom.xml.
+2025-04-24 05:54:25,737 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /178-SpringBoot-JenkinTest/src/main/java
+2025-04-24 05:54:25,738 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /178-SpringBoot-JenkinTest/src/main/resources
+2025-04-24 05:54:25,740 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /178-SpringBoot-JenkinTest/src/main/resources
+2025-04-24 05:54:25,741 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /178-SpringBoot-JenkinTest/src/test/java
+2025-04-24 05:54:25,743 [Worker-105: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /178-SpringBoot-JenkinTest/src/test/resources
+2025-04-24 05:54:27,537 [Worker-105: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 1.00 sec 
+2025-04-24 05:54:28,422 [Worker-107: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-24 05:54:29,717 [Worker-107: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:178-SpringBoot-JenkinTest:0.0.1-SNAPSHOT @ C:\Java Projects_Renju Prasannan\178-SpringBoot-JenkinTest\pom.xml.
+2025-04-24 05:54:31,994 [Worker-107: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /178-SpringBoot-JenkinTest/src/main/java
+2025-04-24 05:54:31,996 [Worker-107: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /178-SpringBoot-JenkinTest/src/main/resources
+2025-04-24 05:54:31,998 [Worker-107: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /178-SpringBoot-JenkinTest/src/main/resources
+2025-04-24 05:54:31,998 [Worker-107: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /178-SpringBoot-JenkinTest/src/test/java
+2025-04-24 05:54:32,001 [Worker-107: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /178-SpringBoot-JenkinTest/src/test/resources
+2025-04-24 05:54:33,872 [Worker-107: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 3.00 sec, update config takes 1.00 sec 
