@@ -1,0 +1,18 @@
+1741579535998	Rename package 'com.training.model'
+1741579552507	Rename package 'com.training.model'
+1741579569947	Rename package 'com.training.model'
+1741580259710	Copy compilation units
+1741580376366	Rename type 'IndianAccountFactory'
+1741580427142	Copy compilation units
+1741580524796	Rename type 'USAccountFactory'
+1741580593602	Move compilation unit
+1741580605324	Delete element
+1741580621499	Delete element
+1741581191592	Copy compilation unit
+1741581201327	Delete element
+1741582811471	Delete element
+1741582823995	Copy compilation units
+1741582885590	Rename package 'com.training.model.chinese'
+1741583003436	Rename compilation unit 'IndianAccountFactory.java'
+1741583075824	Rename compilation unit 'ChineseAccountFactory.java'
+1741583146409	Rename type 'IndianAccountFactory'

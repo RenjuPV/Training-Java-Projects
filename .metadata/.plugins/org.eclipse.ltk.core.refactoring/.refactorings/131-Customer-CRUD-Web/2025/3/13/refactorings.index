@@ -1,0 +1,9 @@
+1743008765774	Delete elements
+1743009937276	Rename type 'FrontControllerServelet'
+1743034802618	Delete element
+1743036709666	Rename resource 'EditStudent.jsp'
+1743036724398	Rename resource 'ListStudentsForUpdate.jsp'
+1743036735553	Rename resource 'StudentUpdateResult.jsp'
+1743047111805	Move 'DeleteStudent.jsp' to 'webapp'
+1743047115129	Move 'ListStudentsForDelete.jsp' to 'webapp'
+1743047118341	Move 'StudentDeleteResult.jsp' to 'webapp'

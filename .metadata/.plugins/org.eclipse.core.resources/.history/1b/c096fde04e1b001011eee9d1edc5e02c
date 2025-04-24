@@ -1,0 +1,5 @@
+package com.training.request;
+
+public class AppUserAuthenticateRequest {
+
+}

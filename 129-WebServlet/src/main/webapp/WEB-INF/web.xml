@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd" id="WebApp_ID" version="6.0">
+	<display-name>129-WebServlet</display-name>
+	
+	<servlet>
+		<servlet-name>First</servlet-name>
+		<servlet-class>com.training.ui.FirstServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>First</servlet-name>
+		<url-pattern>/welcome</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Second</servlet-name>
+		<servlet-class>com.training.ui.SecondServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Second</servlet-name>
+		<url-pattern>/testing</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>StudentController</servlet-name>
+		<servlet-class>com.training.ui.StudentControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>StudentController</servlet-name>
+		<url-pattern>/SCS</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>AccountController</servlet-name>
+		<servlet-class>com.training.ui.AccountControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AccountController</servlet-name>
+		<url-pattern>/ACS</url-pattern>
+	</servlet-mapping>
+	
+</web-app>

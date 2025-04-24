@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.training.model.CarLoan&apos; to &apos;CarLoanImpl&apos;&#x0D;&#x0A;- Original project: &apos;091-LSP Assignment&apos;&#x0D;&#x0A;- Original element: &apos;com.training.model.CarLoan&apos;&#x0D;&#x0A;- Renamed element: &apos;com.training.model.CarLoanImpl&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CarLoan&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.training.model{CarLoan.java[CarLoan" matchStrategy="1" name="CarLoanImpl" qualified="false" references="true" similarDeclarations="false" stamp="1741323490548" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,3 @@
+spring.application.name=172-SpringBoot-Eureka-Welcome-Service
+server.port=9083
+eureka.client.service-url.defaultZone="http

@@ -1,0 +1,12 @@
+package vehicle3;
+
+import vehicle1.Bus1;
+
+public class Bike1 {
+	public static void main(String[] args) {
+		Bus1 b1=new Bus1();
+		b1.check1();
+		System.out.println(b1.name);
+	}
+
+}

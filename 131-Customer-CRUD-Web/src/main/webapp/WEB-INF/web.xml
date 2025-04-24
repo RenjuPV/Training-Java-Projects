@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+	id="WebApp_ID" version="6.0">
+	<display-name>131-Customer-CRUD-Web</display-name>
+	<servlet>
+		<servlet-name>FrontController</servlet-name>
+		<servlet-class>com.training.ui.FrontControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FrontController</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ListCustomersController</servlet-name>
+		<servlet-class>com.training.ui.ListCustomersControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListCustomersController</servlet-name>
+		<url-pattern>/ListCustomers</url-pattern>
+	</servlet-mapping>
+	
+	 <servlet>
+		<servlet-name>AddCustomerInputScreenController</servlet-name>
+		<servlet-class>com.training.ui.AddCustomerInputScreenControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddCustomerInputScreenController</servlet-name>
+		<url-pattern>/AddCustomer1</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>CustomerAddingController</servlet-name>
+		<servlet-class>com.training.ui.CustomerAddingControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CustomerAddingController</servlet-name>
+		<url-pattern>/AddCustomer2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ListCustomersForUpdateController</servlet-name>
+		<servlet-class>com.training.ui.ListCustomersForUpdateControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ListCustomersForUpdateController</servlet-name>
+		<url-pattern>/UpdateCustomer1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FetchCustomerForUpdateController</servlet-name>
+		<servlet-class>com.training.ui.FetchCustomerForUpdateControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FetchCustomerForUpdateController</servlet-name>
+		<url-pattern>/UpdateCustomer2</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>CustomerUpdateController</servlet-name>
+		<servlet-class>com.training.ui.CustomerUpdateControllerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CustomerUpdateController</servlet-name>
+		<url-pattern>/UpdateCustomer3</url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>

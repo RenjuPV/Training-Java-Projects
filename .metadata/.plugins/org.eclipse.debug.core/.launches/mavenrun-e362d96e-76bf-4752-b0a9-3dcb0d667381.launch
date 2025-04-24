@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2e.Maven2LaunchConfigurationType">
+    <booleanAttribute key="M2_BATCH" value="false"/>
+    <stringAttribute key="M2_GOALS" value="-U archetype:generate"/>
+    <listAttribute key="M2_PROPERTIES">
+        <listEntry value="javaCompilerVersion=17"/>
+        <listEntry value="junitVersion=5.11.0"/>
+        <listEntry value="archetypeGroupId=org.apache.maven.archetypes"/>
+        <listEntry value="archetypeArtifactId=maven-archetype-quickstart"/>
+        <listEntry value="archetypeVersion=1.5"/>
+        <listEntry value="groupId=com.training"/>
+        <listEntry value="artifactId=127-JPA"/>
+        <listEntry value="version=0.0.1-SNAPSHOT"/>
+        <listEntry value="package=com.training._JPA"/>
+        <listEntry value="outputDirectory=C:\Maven_Projects_Renju"/>
+    </listAttribute>
+    <booleanAttribute key="M2_SAVE_BEFORE_LAUNCH" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\devops2\AppData\Local\Temp\9\m2e-archetypeGenerator15204089869452657884"/>
+</launchConfiguration>

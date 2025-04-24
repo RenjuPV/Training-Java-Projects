@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.training.model.SelectionSort.java&apos; to &apos;SelectionSortStrategy.java&apos;&#x0D;&#x0A;- Original project: &apos;113-Strategy Design&apos;&#x0D;&#x0A;- Original element: &apos;com.training.model.SelectionSort.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.training.model.SelectionSortStrategy.java&apos;" description="Rename compilation unit &apos;SelectionSort.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.training.model{SelectionSort.java" name="SelectionSortStrategy.java" references="false" stamp="1741682753565" version="1.0"/>
+</session>

@@ -1,0 +1,29 @@
+package com.training.ui;
+
+import java.util.PriorityQueue;
+
+public class Main2 {
+	public static void main(String[] args) {
+		PriorityQueue<Integer> queue;
+		queue = new PriorityQueue<>();
+
+		queue.add(30);
+		queue.add(22);
+		queue.add(18);
+		queue.add(40);
+		queue.add(36);
+
+		Integer result = queue.poll();
+		System.out.println(result);
+
+		result = queue.poll();
+		System.out.println(result);
+
+		result = queue.poll();
+		System.out.println(result);
+
+		result = queue.poll();
+		System.out.println(result);
+
+	}
+}

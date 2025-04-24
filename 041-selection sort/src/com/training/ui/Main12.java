@@ -1,0 +1,52 @@
+package com.training.ui;
+
+import java.util.Arrays;
+
+import com.training.model.Employee;
+import com.training.model.Manager;
+import com.training.model.SalesEmployee;
+
+import com.training.model.comparators.EmployeeBasicSalaryDescendingComparator;
+
+public class Main12 {
+
+	public static void main(String[] args) {
+
+		Employee emp1 = new Employee(101, "Sanju", "female", "tvm", 30000.0);
+		Employee emp2 = new Employee(102, "Manju", "female", "tvm", 15000.0);
+		SalesEmployee se1 = new SalesEmployee(103, "Anila", "female", "tvm", 35000.0, 100000);
+		SalesEmployee se2 = new SalesEmployee(104, "Anju", "female", "tvm", 20000.0, 100000);
+		Manager m = new Manager(104, "Renju", "Female", "tvm", 10000.0, 10);
+
+		Employee[] employees = { emp1, emp2, se1, se2, m };
+
+		int n = employees.length;
+		int iMin;
+
+		EmployeeBasicSalaryDescendingComparator comparator = new EmployeeBasicSalaryDescendingComparator();
+
+		for (int i = 0; i < n - 1; i++) {
+
+			iMin = i;
+
+			for (int j = i + 1; j < n; j++) {
+
+				int r = comparator.compare(employees[j], employees[iMin]);
+
+				if (r < 0)
+					iMin = j;
+			}
+
+			Employee temp;
+			temp = employees[i];
+			employees[i] = employees[iMin];
+			employees[iMin] = temp;
+
+		}
+
+		System.out.println(Arrays.toString(employees));
+		employees = null;
+
+	}
+
+}

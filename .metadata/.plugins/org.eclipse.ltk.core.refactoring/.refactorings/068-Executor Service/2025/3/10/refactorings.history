@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;068-Executor Service/Wwelcome.txt&apos; to &apos;welcome.txt&apos;" description="Rename resource &apos;Wwelcome.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Wwelcome.txt" name="welcome.txt" stamp="1740999619357" updateReferences="true"/>
+</session>

@@ -1,0 +1,18 @@
+1744777943281	Rename type 'VisitorsShowAllByCity'
+1744780726305	Copy packages
+1744780777186	Delete element
+1744780916612	Rename type 'VisitorRepository'
+1744781184996	Rename type 'VisitorNotFoundException'
+1744781249367	Rename type 'VisitorService'
+1744782174430	Rename type 'VisitorAddResponse'
+1744782269572	Rename type 'VisitorDeleteResponse'
+1744782339441	Rename type 'VisitorModifyResponse'
+1744782423501	Rename type 'VisitorSearchResponse'
+1744782536636	Rename type 'VisitorShowAllByNameResponse'
+1744782616552	Rename type 'VisitorShowAllResponse'
+1744782721636	Rename type 'VisitorsShowAllByCityResponse'
+1744782739549	Rename type 'CustomerShowAllByPhone'
+1744782824481	Rename type 'VisitorAddRequest'
+1744782920541	Rename type 'VisitorDeleteRequest'
+1744782989111	Rename type 'VisitorModifyRequest'
+1744783063863	Rename type 'VisitorController'

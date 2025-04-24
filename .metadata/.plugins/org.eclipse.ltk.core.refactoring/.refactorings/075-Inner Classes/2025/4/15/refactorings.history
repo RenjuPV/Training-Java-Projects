@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Main1.java&apos; to &apos;076-Static Inner Class&apos;&#x0D;&#x0A;- Original project: &apos;075-Inner Classes&apos;&#x0D;&#x0A;- Destination element: &apos;076-Static Inner Class&apos;&#x0D;&#x0A;- Original element: &apos;com.training.ui.Main1.java&apos;" description="Copy compilation unit" destination="=076-Static Inner Class" element1="/src&lt;com.training.ui{Main1.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1744022538137" units="1" version="1.0"/>
+</session>

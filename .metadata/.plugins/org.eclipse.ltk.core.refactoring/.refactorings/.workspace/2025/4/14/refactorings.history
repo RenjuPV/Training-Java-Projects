@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;139-Spring-JDBC_Support&apos; to &apos;138-Spring-JDBC-Support&apos;" description="Rename resource &apos;139-Spring-JDBC_Support&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/139-Spring-JDBC_Support" name="138-Spring-JDBC-Support" stamp="1743567482455" updateReferences="true"/>
+</session>

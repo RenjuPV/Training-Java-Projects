@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;com.training.model&apos; to &apos;072-Graph Implementation/src&apos;&#x0D;&#x0A;- Original project: &apos;071Data Structure Binary Tree&apos;&#x0D;&#x0A;- Destination element: &apos;072-Graph Implementation/src&apos;&#x0D;&#x0A;- Original element: &apos;071Data Structure Binary Tree/src/com.training.model&apos;" description="Copy package" destination="=072-Graph Implementation/src" element1="/src&lt;com.training.model" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1741150648526" version="1.0"/>
+</session>

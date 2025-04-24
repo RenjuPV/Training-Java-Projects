@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;025-Object Class&apos; to &apos;025-Object Class-Reference Casting&apos;" description="Rename resource &apos;025-Object Class&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/025-Object Class" name="025-Object Class-Reference Casting" stamp="1739362640158" updateReferences="true"/>
+</session>
