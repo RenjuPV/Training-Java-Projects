@@ -13777,3 +13777,44 @@ org.eclipse.core.runtime.CoreException: Launch configuration Application (17) re
 2025-04-28 18:39:40,938 [Worker-79: Launching DailyFreshSupplierServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-04-28 18:39:41,094 [Worker-79: Launching DailyFreshSupplierServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-04-28 18:39:41,131 [Worker-79: Launching DailyFreshSupplierServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Java Projects_Renju Prasannan\DailyFresh-Supplier_Service\src\test\resources
+2025-04-28 19:02:08,993 [Worker-83: Launching DailyFreshSupplierServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-28 19:02:09,011 [Worker-83: Launching DailyFreshSupplierServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-28 19:02:09,026 [Worker-83: Launching DailyFreshSupplierServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Java Projects_Renju Prasannan\DailyFresh-Supplier_Service\src\test\resources
+2025-04-29 14:33:30,699 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-04-29 15:56:59,367 [Worker-48: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:DailyFresh-Stock_Service:0.0.1-SNAPSHOT @ C:\Java Projects_Renju Prasannan\DailyFresh-Stock_Service\pom.xml.
+2025-04-29 15:57:06,251 [Worker-48: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DailyFresh-Stock_Service/src/main/java
+2025-04-29 15:57:06,257 [Worker-48: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/main/resources
+2025-04-29 15:57:06,290 [Worker-48: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/main/resources
+2025-04-29 15:57:06,322 [Worker-48: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DailyFresh-Stock_Service/src/test/java
+2025-04-29 15:57:06,325 [Worker-48: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/test/resources
+2025-04-29 15:57:09,656 [Worker-48: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 14 sec
+2025-04-29 15:57:09,699 [Worker-48: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-29 15:57:11,386 [Worker-48: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:DailyFresh-Stock_Service:0.0.1-SNAPSHOT @ C:\Java Projects_Renju Prasannan\DailyFresh-Stock_Service\pom.xml.
+2025-04-29 15:57:15,682 [Worker-48: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DailyFresh-Stock_Service/src/main/java
+2025-04-29 15:57:15,684 [Worker-48: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/main/resources
+2025-04-29 15:57:15,685 [Worker-48: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/main/resources
+2025-04-29 15:57:15,686 [Worker-48: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DailyFresh-Stock_Service/src/test/java
+2025-04-29 15:57:15,688 [Worker-48: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/test/resources
+2025-04-29 15:57:19,270 [Worker-48: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 5.00 sec, update config takes 3.00 sec 
+2025-04-29 15:57:22,863 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-29 15:57:24,385 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:DailyFresh-Stock_Service:0.0.1-SNAPSHOT @ C:\Java Projects_Renju Prasannan\DailyFresh-Stock_Service\pom.xml.
+2025-04-29 15:57:28,476 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DailyFresh-Stock_Service/src/main/java
+2025-04-29 15:57:28,477 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/main/resources
+2025-04-29 15:57:28,479 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/main/resources
+2025-04-29 15:57:28,479 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DailyFresh-Stock_Service/src/test/java
+2025-04-29 15:57:28,481 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/test/resources
+2025-04-29 15:57:32,108 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 5.00 sec, update config takes 3.00 sec 
+2025-04-29 16:43:44,998 [Worker-74: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-04-29 16:43:47,560 [Worker-74: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.training:DailyFresh-Stock_Service:0.0.1-SNAPSHOT @ C:\Java Projects_Renju Prasannan\DailyFresh-Stock_Service\pom.xml.
+2025-04-29 16:43:51,859 [Worker-74: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DailyFresh-Stock_Service/src/main/java
+2025-04-29 16:43:51,861 [Worker-74: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/main/resources
+2025-04-29 16:43:51,863 [Worker-74: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/main/resources
+2025-04-29 16:43:51,865 [Worker-74: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DailyFresh-Stock_Service/src/test/java
+2025-04-29 16:43:51,867 [Worker-74: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DailyFresh-Stock_Service/src/test/resources
+2025-04-29 16:43:55,632 [Worker-74: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 6.00 sec, update config takes 3.00 sec 
+2025-04-29 17:47:24,620 [Worker-102: Launching DailyFreshStockServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-29 17:47:24,750 [Worker-102: Launching DailyFreshStockServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-29 17:47:24,777 [Worker-102: Launching DailyFreshStockServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Java Projects_Renju Prasannan\DailyFresh-Stock_Service\src\test\resources
+2025-04-29 17:51:18,264 [Worker-107: Launching DailyFreshStockServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-04-29 17:51:18,279 [Worker-107: Launching DailyFreshStockServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-04-29 17:51:18,293 [Worker-107: Launching DailyFreshStockServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Java Projects_Renju Prasannan\DailyFresh-Stock_Service\src\test\resources

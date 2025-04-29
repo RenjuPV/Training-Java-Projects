@@ -1,3 +1,0 @@
-spring.application.name=HelloService
-server.port=9082
-eureka.client.service-url.defaultZone="http://localhost:9081/eureka/"
