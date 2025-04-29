@@ -4,6 +4,8 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="supplier"/>
+			<item value="customer"/>
 			<item value="student"/>
 			<item value="head"/>
 			<item value="ListCustomers"/>
