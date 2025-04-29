@@ -12,26 +12,29 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
-@Entity
+
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+@Entity
 public class Stock {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+	 @Id
+	    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	    private Long id;
 
-    private Long itemId;
+	    @ManyToOne
+	    @JoinColumn(name = "item_id", nullable = false)
+	    private Item item;
 
-    @ManyToOne
-    @JoinColumn(name = "location_id")
-    private Location location;
+	    @ManyToOne
+	    @JoinColumn(name = "location_id", nullable = false)
+	    private Location location;
 
-    @ManyToOne
-    @JoinColumn(name = "city_id")
-    private City city;
+	    @ManyToOne
+	    @JoinColumn(name = "city_id", nullable = false)
+	    private City city;
 
-    private Integer availableQuantity;
+	    private Integer availableQuantity;
 }
