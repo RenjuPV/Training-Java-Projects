@@ -25,37 +25,45 @@ import jakarta.validation.Valid;
 @RequestMapping("/api/stocks")
 public class StockController {
 
-    @Autowired
-    private StockService stockService;
+	@Autowired
+	private StockService stockService;
 
-    // Add or Update Stock
-    @PostMapping("/addOrUpdate")
-    public Stock addOrUpdateStock(@RequestBody Stock stock) {
-        return stockService.addOrUpdateStock(stock);
-    }
+	// Add or Update Stock
+	@PostMapping("/addOrUpdate")
+	public Stock addOrUpdateStock(@RequestBody Stock stock) {
+		return stockService.addOrUpdateStock(stock);
+	}
 
-    //  Get Stock by Item, Location and City
-    @GetMapping("/getById")
-    public Stock getStock(@RequestParam Long itemId,
-                          @RequestParam Long locationId,
-                          @RequestParam Long cityId) {
-        return stockService.getStock(itemId, locationId, cityId);
-    }
-    
-    //Get All Stock
-    @GetMapping("/getByAll")
-    public List<Stock> getAllStock() {
-        return stockService.getAllStock();
-    }
-    
-    // Reduce Stock Quantity
-    @PutMapping("/reduce")
-    public String reduceStock(@RequestParam Long itemId,
-                              @RequestParam Long locationId,
-                              @RequestParam Long cityId,
-                              @RequestParam int quantity) {
-        stockService.reduceStock(itemId, locationId, cityId, quantity);
-        return "Stock reduced successfully.";
-    }
-    
+	// Get Stock by Location
+	@GetMapping("/getStockByLocation")
+	public Stock getStockByLocation(@RequestParam Long locationId) {
+		return stockService.getStockByLocation(locationId);
+	}
+
+	// Get Stock by City
+	@GetMapping("/getStockByCity")
+	public Stock getStockByCity(@RequestParam Long cityId) {
+		return stockService.getStockByCity(cityId);
+	}
+
+    // Get Stock by Item
+	@GetMapping("/getStockByItemId")
+	public Stock getStock(@RequestParam Long itemId) {
+		return stockService.getStockByItem(itemId);
+	}
+
+	// Get All Stock
+	@GetMapping("/getByAll")
+	public List<Stock> getAllStock() {
+		return stockService.getAllStock();
+	}
+
+	// Reduce Stock Quantity
+	@PutMapping("/reduce")
+	public String reduceStock(@RequestParam Long itemId, @RequestParam Long locationId, @RequestParam Long cityId,
+			@RequestParam int quantity) {
+		stockService.reduceStock(itemId, locationId, cityId, quantity);
+		return "Stock reduced successfully.";
+	}
+
 }

@@ -11,5 +11,9 @@ import com.training.model.Stock;
 
 public interface StockRepository extends JpaRepository<Stock, Long>{
 	 Optional<Stock> findByItemAndLocationAndCity(Item item, Location location, City city);
+	 Optional<Stock> findByItem(Item item);
+	 Optional<Stock> findByLocation(Location location);
+	 Optional<Stock> findByCity(City city);
+	 
 
 }

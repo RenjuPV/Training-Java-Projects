@@ -47,4 +47,9 @@ public class ItemController {
         itemService.deleteItem(id);
         return "Item deleted successfully.";
     }
+    
+    @GetMapping("/category/{category}")
+    public List<Item> getItemsByCategory(@PathVariable String category) {
+        return itemService.getItemsByCategory(category);
+    }
 }
