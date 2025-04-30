@@ -27,7 +27,7 @@ public class ItemController {
         return itemService.createItem(item);
     }
 
-    @GetMapping("getItemById/{id}")
+    @GetMapping("/getItemById/{id}")
     public Item getItem(@PathVariable Long id) {
         return itemService.getItemById(id);
     }
@@ -37,12 +37,12 @@ public class ItemController {
         return itemService.getAllItems();
     }
 
-    @PutMapping("updateItem/{id}")
+    @PutMapping("/updateItem/{id}")
     public Item updateItem(@PathVariable Long id, @RequestBody Item item) {
         return itemService.updateItem(id, item);
     }
 
-    @DeleteMapping("deleteItem/{id}")
+    @DeleteMapping("/deleteItem/{id}")
     public String deleteItem(@PathVariable Long id) {
         itemService.deleteItem(id);
         return "Item deleted successfully.";

@@ -28,21 +28,27 @@ public class StockController {
     @Autowired
     private StockService stockService;
 
-    // 1. Add or Update Stock
+    // Add or Update Stock
     @PostMapping("/addOrUpdate")
     public Stock addOrUpdateStock(@RequestBody Stock stock) {
         return stockService.addOrUpdateStock(stock);
     }
 
-    // 2. Get Stock by Item, Location and City
-    @GetMapping("/get")
+    //  Get Stock by Item, Location and City
+    @GetMapping("/getById")
     public Stock getStock(@RequestParam Long itemId,
                           @RequestParam Long locationId,
                           @RequestParam Long cityId) {
         return stockService.getStock(itemId, locationId, cityId);
     }
-
-    // 3. Reduce Stock Quantity
+    
+    //Get All Stock
+    @GetMapping("/getByAll")
+    public List<Stock> getAllStock() {
+        return stockService.getAllStock();
+    }
+    
+    // Reduce Stock Quantity
     @PutMapping("/reduce")
     public String reduceStock(@RequestParam Long itemId,
                               @RequestParam Long locationId,
@@ -51,4 +57,5 @@ public class StockController {
         stockService.reduceStock(itemId, locationId, cityId, quantity);
         return "Stock reduced successfully.";
     }
+    
 }

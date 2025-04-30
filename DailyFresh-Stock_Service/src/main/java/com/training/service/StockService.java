@@ -1,5 +1,6 @@
 package com.training.service;
 
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -68,6 +69,12 @@ public class StockService {
 
 		return stockRepository.findByItemAndLocationAndCity(item, location, city)
 				.orElseThrow(() -> new RuntimeException("Stock not found"));
+	}
+	
+	public List<Stock> getAllStock() {
+		
+		return stockRepository.findAll();
+				
 	}
 
 	public void reduceStock(Long itemId, Long locationId, Long cityId, int quantity) {

@@ -22,27 +22,27 @@ public class CityController {
     @Autowired
     private CityService cityService;
 
-    @PostMapping
+    @PostMapping("/add")
     public City createCity(@RequestBody City city) {
         return cityService.createCity(city);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/getCity/{id}")
     public City getCity(@PathVariable Long id) {
         return cityService.getCityById(id);
     }
 
-    @GetMapping
+    @GetMapping("/allCities")
     public List<City> getAllCities() {
         return cityService.getAllCities();
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/modify/{id}")
     public City updateCity(@PathVariable Long id, @RequestBody City city) {
         return cityService.updateCity(id, city);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
     public String deleteCity(@PathVariable Long id) {
         cityService.deleteCity(id);
         return "City deleted successfully.";

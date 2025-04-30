@@ -22,27 +22,27 @@ public class LocationController {
     @Autowired
     private LocationService locationService;
 
-    @PostMapping
+    @PostMapping("/add")
     public Location createLocation(@RequestBody Location location) {
         return locationService.createLocation(location);
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/get/{id}")
     public Location getLocation(@PathVariable Long id) {
         return locationService.getLocationById(id);
     }
 
-    @GetMapping
+    @GetMapping("/getAll")
     public List<Location> getAllLocations() {
         return locationService.getAllLocations();
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/modify/{id}")
     public Location updateLocation(@PathVariable Long id, @RequestBody Location location) {
         return locationService.updateLocation(id, location);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/delete/{id}")
     public String deleteLocation(@PathVariable Long id) {
         locationService.deleteLocation(id);
         return "Location deleted successfully.";
